@@ -1,0 +1,183 @@
+.both-sides{
+    display: grid;
+    grid-template-columns: 1fr 670px;
+}
+.left{
+   /* background-color: lightpink;*/
+    position: relative;
+    
+     
+}
+.left img{
+    position: absolute;
+    top:180px;
+    left:250px;
+    height: 350px;
+    
+}
+.right{
+  /*  background-color: lightblue;*/
+   height:710px;
+    
+}
+.big-heading{
+    font-family: Verdana;
+    font-size: 62px;
+    font-weight: 700;
+    margin-top: 110px;
+    letter-spacing: -1.2px;
+}
+.sub-heading{
+    font-family: Verdana;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+    letter-spacing: -1.2px;
+    margin-bottom: 30px;
+}
+.buta{
+    display: flex;
+    margin-bottom:8px ;
+    width: 300px;   
+    align-items: center;
+    justify-content: center;
+    padding:8px 4px 8px 4px;
+    border-radius: 24px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    transition: background-color 0.218s border-color 0.218s;
+    cursor: pointer;
+}
+.buta:hover{
+    border-color:rgb(133, 187, 187) ;
+    background-color: rgba(67, 139, 255, 0.04);
+}
+.butb:hover{
+    background-color: lightgrey;
+}
+.butb{
+    display: flex;
+    margin-bottom:8px ;
+    width: 300px;   
+    align-items: center;
+    justify-content: center;
+    padding:8px 4px 8px 4px;
+    border-radius: 24px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    transition: background-color 0.218s;
+    cursor: pointer;
+}
+
+.apple-logo{
+    height:24px;
+}
+.google-logo{
+    height:24px;
+    border-radius: 12px;
+}
+.text-button{
+    font-weight: 700;
+    font-family: Verdana;
+    margin-left: 4px;
+    font-size: 13px;
+}
+
+.Or{
+    margin-left: 145px;
+    margin-top: 5px;
+    color: rgb(29, 28, 28);
+    margin-bottom: 10px;
+}
+.text-afterOR{
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 15px;
+    color:white;
+    
+}
+.create-button{
+    display: flex;
+    margin-bottom:8px ;
+    width: 300px;   
+    align-items: center;
+    justify-content: center;
+    padding:8px 32px 8px 32px;
+    border-radius: 24px;
+    background-color:rgb(0, 132, 255);
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    height:40px;
+    transition: background-color 0.218s;
+    cursor: pointer;
+}
+.create-button:hover{
+    background-color:rgb(5, 107, 202);
+}
+.terms{
+    width:300px;
+    
+    font-size: 12px
+}
+.blue{
+    color:rgb(0, 132, 255);
+    display: inline;
+    transition: text-decoration 0.218s;
+    cursor: pointer;
+}
+.blue:hover{
+    text-decoration: underline;
+}
+.Q{
+    font-weight: 600;
+    font-family: Arial;
+    font-size: 18px;
+    margin-top: 65px;
+    margin-bottom: 15px;
+}
+.signin-button{
+    color:rgb(0, 132, 255);
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.but-sign{
+    display: flex;
+    margin-bottom:8px ;
+    width: 300px;   
+    align-items: center;
+    justify-content: center;
+    padding:8px 32px 8px 32px;
+    border-radius: 24px;
+    background-color:white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    height:40px;
+    transition:background-color 0.218s border-color 0.218s;
+    cursor: pointer;
+}
+.but-sign:hover{
+    border-color:rgb(133, 187, 187) ;
+    background-color: rgba(0, 98, 255, 0.04);
+}
+.footer{
+    color: lightgray;
+    display: inline-block;
+    flex: 1;
+}
+@media(max-width:750px){
+    .both-sides{
+        grid-template-columns: none;
+    }
+}
+@media(min-width:751px){
+    .both-sides{
+        grid-template-columns: 1fr 670px;
+    }
+}
